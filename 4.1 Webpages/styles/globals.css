@@ -1,0 +1,100 @@
+html {
+    background-color: #10151B;
+    background: url(https://images.pexels.com/photos/19068955/pexels-photo-19068955/free-photo-of-man-standing-on-a-balcony-of-a-modern-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* block-size: 1222px; */
+    block-size: 916.5px; /* 1222px * 0.75 */
+}
+  
+body {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Oswald", sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+}
+  
+h1 {
+    line-height: .95;
+    color: #66fcf1;
+    font-weight: 900;
+    /* font-size: 150px; */
+    font-size: 112.5px; /* 150px * 0.75 */
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+  
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    /* right: 600;
+    bottom: 500;
+    width: 811px;
+    height: 50%; */
+    right: 450px; /* 600px * 0.75 */
+    bottom: 375px; /* 500px * 0.75 */
+    width: 608.25px; /* 811px * 0.75 */
+    height: 37.5%; /* 50% * 0.75 */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust as needed for horizontal padding */
+    justify-content: flex-start;
+  }
+
+.btn {
+    margin: 0 auto;
+    width: auto;
+    flex-wrap: wrap;
+    /* height: 60px;
+    padding: 6px 0 0 3px;
+    border: 2px solid #66fcf1;
+    border-radius: 2px; */
+    height: 45px; /* 60px * 0.75 */
+    padding: 4.5px 0 0 2.25px; /* 6px * 0.75 */
+    border: 1.5px solid #66fcf1; /* 2px * 0.75 */
+    border-radius: 1.5px; /* 2px * 0.75 */
+    background: none;
+    /* font-size: 16px;
+    line-height: 54px; */
+    font-size: 12px; /* 16px * 0.75 */
+    line-height: 40.5px; /* 54px * 0.75 */
+    color: #fff;
+    /* letter-spacing: .25em; */
+    letter-spacing: 0.1875em; /* 0.25em * 0.75 */
+    text-decoration: none;
+    /* font-weight: 600; */
+    font-weight: 450; /* 600 * 0.75 */
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: background-color .4s, color .4s, width .4s; /* Added width transition */
+    transition: background-color .4s, color .4s, width .4s; /* Added width transition */
+    cursor: pointer;
+    /* min-width: 120px; /* Set a minimum width */
+    /* max-width: 300px; Set a maximum width  */
+    min-width: 90px; /* 120px * 0.75 */
+    /* max-width: 225px; 300px * 0.75 */
+    flex: 1 0 calc(33.33% - 20px); /* 3 containers in one row with padding */
+    max-width: calc(33.33% - 20px); /* 3 containers in one row with padding */
+}
+  
+.btn:hover {
+    background: #66fcf1;
+    color: #10151B;
+    width: 100%;
+}
